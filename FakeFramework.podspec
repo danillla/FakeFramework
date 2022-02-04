@@ -7,8 +7,8 @@
 #
 
 Pod::Spec.new do |spec|
-  spec.name         = "FakeFramework"
-  spec.version      = "0.0.3"
+  spec.name         = "FakeFrameworkSdk"
+  spec.version      = "0.1.0"
   spec.summary      = "This is a fake iOS framework just for some tests and experiments"
   spec.homepage     = "https://github.com/danillla/FakeFramework"
   spec.license      = { :type => "MIT", :file => "LICENSE" }
@@ -17,5 +17,5 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios, "11.0"
   # spec.ios.deployment_target = "5.0"
   spec.source       = { :git => "https://github.com/danillla/FakeFramework.git", :tag => "#{spec.version}" }
-  spec.vendored_frameworks = 'FakeFramework.xcframework'
+  spec.vendored_frameworks = 'FakeFrameworkSdk.xcframework'
 end

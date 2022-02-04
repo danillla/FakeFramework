@@ -4,21 +4,32 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Headers/FakeFrameworkSdk.h</key>
+		<data>
+		jUFShsZ/NAppKJvi/H94QUSF0mw=
+		</data>
 		<key>Headers/PacketManagersAPI.h</key>
 		<data>
 		mkrlRd8PpfA4Pvoiyd2bKggqJso=
 		</data>
-		<key>Headers/PacketManagersExperiments.h</key>
-		<data>
-		YYLqC1eUoElT/u5SvzGZQPbZHKw=
-		</data>
 		<key>Info.plist</key>
 		<data>
-		WSf7+2SMaljN2sZJjwj+nofh+vE=
+		tTwfGsqbkL1NjO7d91jnv76Vv8o=
+		</data>
+		<key>Modules/module.modulemap</key>
+		<data>
+		txrLZQ+h/cp1UrloVtS+SnDtUn8=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Headers/FakeFrameworkSdk.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			pHCtT0E1mwbH46POCbj9x2YkMXPxZzu9AHsFSdmzYdE=
+			</data>
+		</dict>
 		<key>Headers/PacketManagersAPI.h</key>
 		<dict>
 			<key>hash2</key>
@@ -26,11 +37,11 @@
 			CpD7QX8WpigZKAbxnajJpsX1s+DbwOg4wmGMQtn+CAA=
 			</data>
 		</dict>
-		<key>Headers/PacketManagersExperiments.h</key>
+		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			cZweLa92UKKlcsZk/20vhzHqpQZ8UmhIokU0lZ6h8gQ=
+			BYrC4fyMTpE3K2DmUugMt4T4KPu77oEY6g5CvyaZrkY=
 			</data>
 		</dict>
 	</dict>
