@@ -18,8 +18,8 @@ Pod::Spec.new do |spec|
   # spec.ios.deployment_target = "5.0"
   spec.source       = { :git => "https://github.com/danillla/FakeFramework.git", :tag => "#{spec.version}" }
   spec.vendored_frameworks = 'FakeFramework.xcframework'
-  spec.public_header_files = "FakeFramework.framework/Headers/*.h"
-  spec.source_files = "FakeFramework.framework/Headers/*.h"
+  spec.public_header_files = "**/FakeFramework.framework/Headers/*.h"
+  spec.source_files = "**/FakeFramework.framework/Headers/*.h"
 #  s.vendored_frameworks = "MyFramework.framework"
   # spec.source_files  = "Classes", "Classes/**/*.{h,m}"
   # spec.exclude_files = "Classes/Exclude"
