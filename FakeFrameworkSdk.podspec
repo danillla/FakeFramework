@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |spec|
   spec.name         = "FakeFrameworkSdk"
-  spec.version      = "0.1.4"
+  spec.version      = "0.1.4-beta1"
   spec.summary      = "This is a fake iOS framework just for some tests and experiments"
   spec.homepage     = "https://github.com/danillla/FakeFramework"
   spec.license      = { :type => "MIT", :file => "LICENSE" }
