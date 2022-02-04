@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |spec|
   spec.name         = "FakeFramework"
-  spec.version      = "0.0.2"
+  spec.version      = "0.0.3"
   spec.summary      = "This is a fake iOS framework just for some tests and experiments"
   spec.homepage     = "https://github.com/danillla/FakeFramework"
   spec.license      = { :type => "MIT", :file => "LICENSE" }
@@ -18,11 +18,4 @@ Pod::Spec.new do |spec|
   # spec.ios.deployment_target = "5.0"
   spec.source       = { :git => "https://github.com/danillla/FakeFramework.git", :tag => "#{spec.version}" }
   spec.vendored_frameworks = 'FakeFramework.xcframework'
-  spec.public_header_files = "**/FakeFramework.framework/Headers/*.h"
-  spec.source_files = "**/FakeFramework.framework/Headers/*.h"
-#  s.vendored_frameworks = "MyFramework.framework"
-  # spec.source_files  = "Classes", "Classes/**/*.{h,m}"
-  # spec.exclude_files = "Classes/Exclude"
-
-
 end
