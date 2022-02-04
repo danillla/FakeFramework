@@ -11,7 +11,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface PacketManagersAPI : NSObject
 
-+ (id)sharedManager;
++ (instancetype)sharedManager;
 - (void)summAndLogResult:(NSInteger)first second:(NSInteger)second;
 
 @end
