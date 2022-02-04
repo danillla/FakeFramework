@@ -1,0 +1,6 @@
+framework module PacketManagersExperiments {
+  umbrella header "PacketManagersExperiments.h"
+
+  export *
+  module * { export * }
+}
