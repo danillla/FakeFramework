@@ -10,13 +10,13 @@ Pod::Spec.new do |spec|
   spec.name         = "PacketManagersExperiments"
   spec.version      = "0.0.1"
   spec.summary      = "This is a fake iOS framework just for some tests and experiments"
-  spec.homepage     = "http://github.com/danillla/PacketManagersExperiments"
+  spec.homepage     = "https://github.com/danillla/FakeFramework"
   spec.license      = { :type => "MIT", :file => "LICENSE" }
   spec.author             = { "Daniil Alferov" => "daniil.alferov@gmail.com" }
 
   spec.platform     = :ios, "11.0"
   # spec.ios.deployment_target = "5.0"
-  spec.source       = { :git => "http://github.com/danillla/PacketManagersExperiments.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/danillla/FakeFramework.git", :tag => "#{spec.version}" }
   spec.vendored_frameworks = 'PacketManagersExperiments.xcframework'
 
   # spec.source_files  = "Classes", "Classes/**/*.{h,m}"
