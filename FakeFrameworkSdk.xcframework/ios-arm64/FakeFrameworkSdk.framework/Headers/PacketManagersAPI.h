@@ -15,6 +15,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)summAndLogResult:(NSInteger)first second:(NSInteger)second;
 - (void)subtAndLogResult:(NSInteger)first second:(NSInteger)second;
+- (void)multiplyAndLogResult:(NSInteger)first second:(NSInteger)second;
 
 @end
 
